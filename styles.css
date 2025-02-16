@@ -115,6 +115,15 @@ a {
     border-color: #3882F6;
 }
 
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
 .footer {
     display: flex;
     
