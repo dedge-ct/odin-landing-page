@@ -75,6 +75,46 @@ a {
     padding: 8px 30px;
 }
 
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.info-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 52px;
+    
+}
+
+.info-item {
+    max-width: 170px;
+}
+
+.info-subtext {
+    color: rgb(78, 78, 78);
+    text-align: center;
+}
+
+.info-item img {
+    max-width:100%;
+    max-height:100%;
+    border: 5px solid;
+    border-radius: 8px;
+    border-color: #3882F6;
+}
+
 .footer {
     display: flex;
     
