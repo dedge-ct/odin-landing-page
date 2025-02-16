@@ -137,7 +137,45 @@ a {
     text-align: right;
 }
 
-.footer {
+.call-to-action {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.cta-container {
+    background-color:#3882F6;
+    border-radius: 8px;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+    padding: 50px 120px;
+}
+
+.cta-header {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid;
+    border-color: #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 30px;
+}
+
+.footer {
+    color:#F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
     
 }
