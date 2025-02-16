@@ -43,6 +43,7 @@ a {
     display: flex;
     padding: 80px 175px;
     gap: 20px;
+    flex: 1;
 }
 
 .hero-right img {
