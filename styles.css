@@ -7,22 +7,38 @@ body {
 
 .header {
     display: flex;
+    background-color: #1F2937;
+    padding: 10px 150px;
+    justify-content: space-between;
 }
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
 
 .links {
     display: flex;
     list-style-type: none;
+    align-items: center;
     gap: 12px;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #E5E7EB;
 }
 
 .content {
     display: flex;
     flex-direction: column;
+}
+
+.hero {
+    background-color: #1F2937;
 }
 
 .footer {
